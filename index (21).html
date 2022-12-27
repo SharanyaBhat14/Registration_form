@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Omar Faruk">
+    <meta name="description" content="">
+    <meta name="keywords" content="LMS, Classnote, Mentors helpline">
+    <title>Register here</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- icon fonts -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- custom css -->
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <style>
+        #login-wrapper {
+            width: 100%;
+            height: 100vh;
+            /*background-color: #3A4F7A;*/
+            /*background-color: #00000059;*/
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            /*background-blend-mode: soft-light;*/
+
+        }
+
+        .opacity {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: linear-gradient(180deg, rgb(0 0 0 / 68%), rgba(0, 0, 0, .4), rgb(0 0 0 / 69%));
+        }
+
+        .login-left {
+            /*  background: linear-gradient(-45deg, #1D1CE5, #0008C1, #021d7b, #153462);*/
+            background: linear-gradient(-45deg, #3A4F7A, #3a507d, #5682d8, #01060e);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            padding: 58px;
+        }
+
+        .login-right {
+            background-color: white;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            padding: 58px;
+            /*border-radius: 8px;*/
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+
+        .login-left h2 {
+            color: white;
+            margin-bottom: 32px;
+            font-size: 32px;
+        }
+
+        .login-left p,
+        .login-left p a {
+            color: white;
+        }
+
+        .login-right h2 {
+            font-size: 32px;
+            color: black;
+        }
+
+        .login-right p {
+            margin-bottom: 32px;
+        }
+
+        .login-right input {
+            padding: 14px 12px;
+            margin-bottom: 18px;
+            border-color: #333;
+            border-radius: 4px;
+            font-size: 14px;
+            width: 100%;
+        }
+
+        .login-btn {
+            width: 100%;
+            background: #3A4F7A;
+            border: 1px solid #3A4F7A;
+            color: whitesmoke;
+            font-size: 16px;
+        }
+
+        .form-group {
+            position: relative;
+        }
+
+        .login-form label {
+            position: absolute;
+            top: -12px;
+            background: white;
+            left: 12px;
+            color: #000;
+        }
+
+        .login-form input:focus .login-form label {
+            color: #3A4F7A !important;
+        }
+
+        .login-form input:focus {
+            border-color: #3A4F7A;
+            outline: none;
+            box-shadow: none;
+        }
+
+        .login-form input:focus::placeholder {
+            color: #3A4F7A !important;
+        }
+
+        .line {
+            width: 140px;
+            height: 4px;
+            background: #FFC6D3;
+            margin-top: 36px;
+        }
+
+        .line1 {
+            width: 160px;
+            height: 4px;
+            background: #E98EAD;
+            margin-top: 6px;
+        }
+
+        .lin {
+            position: absolute;
+            z-index: 9999;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .login-wrapper .container {
+            overflow: hidden;
+        }
+
+        .box {
+            padding-top: 3px;
+            border-top: 5px;
+            height: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- banner section code start -->
+    <section id="login-wrapper">
+        <div class="opacity"></div>
+        <!-- login start -->
+        <div class="container lin" style="z-index: 9999;">
+
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="row login-main">
+                        <div class="col-md-6 p-0">
+                            <div class="login-left">
+                                <a href=""><img src=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        <!-- login end -->
+        <!-- reg start -->
+        <div class="container reg" style="z-index: 9999;">
+
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="row login-main">
+                        <div class="col-md-6 p-0">
+                            <div class="login-left">
+                                <div>
+                                    <h2>We are recruiting</h2>
+                                    <p>CORSIT is the premier Robotics club of SIT.We work under the patronage of
+                                        e-Yantra cell of IIT Bombay.</p>
+                                    <p>We are coming up with our recruitment on 17th of January at time in venue.</p>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-0">
+                            <div class="login-right">
+                                <form class="login-form" action="" method="POST" enctype="multiple/form-data">
+                                    <h2>Register here</h2>
+                                    <div class="line1"></div><br>
+
+                                    <div class="form-group one">
+                                        <label>Name</label>
+                                        <input type="text" name="Name" placeholder="Enter your name"
+                                            class="form-control" required>
+                                    </div>
+
+                                    <div class="form-group one">
+                                        <label>USN</label>
+                                        <input type="text" name="usn" placeholder="Enter your usn" class="form-control"
+                                            pattern="1SI2[1-2]{1}[A-Z]{2}[0-9]{3}" required>
+                                    </div>
+
+                                    <div class="form-group one">
+                                        <label>Phone</label>
+                                        <input type="tel" name="phone" placeholder="Enter your mobile number"
+                                            class="form-control" pattern="[6-9]{1}[0-9]{9}" required>
+                                    </div>
+
+                                    <div class="form-group one">
+                                        <label>E-mail</label>
+                                        <input type="email" name="mailid" placeholder="example@mail.com"
+                                            class="form-control">
+                                    </div>
+
+                                    <div class="form-group one">
+                                        <label for="dept">Department</label>
+                                    </div>
+                                    <div class="box ">
+                                        <select name="Branch" id="dept" class="p-2">
+                                            <option value="CSE">Computer Science & Engineering</option>
+                                            <option value="ECE">Electronics and Communication</option>
+                                            <option value="ISE">Information Science & Engineering</option>
+                                            <option value="EEE">Electrical & Electronics Engineering</option>
+                                            <option value="AIDS">Artificial Inteligence & Data Science</option>
+                                            <option value="ETE">Electronics & Telecommunicaton Engineering</option>
+                                            <option value="EIE">Electronics & Instrumentation Engineering</option>
+                                            <option value="IEM">Industrial Engineering Management</option>
+                                            <option value="Mec">Mechanical Engineering</option>
+                                            <option value="CIV">Civil Engineering</option>
+                                            <option value="BIO">Biotechnology</option>
+                                            <option value="CHE">Chemical Engineering</option>
+                                            <option value="AIML">Artificial Intelligence & Machine Learning</option>
+                                        </select>
+                                    </div>
+                                    <br>
+                                    <div class="form-group">
+                                        <input type="submit" name="" value="Register" class="login-btn mt-3">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        <!-- reg end -->
+    </section>
+    <!-- banner section code end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- custom js -->
+    <script>
+        $('.login-form .one input').focus(function () {
+            $('.login-form .one label').css('color', '#010ac2');
+            $('.login-form .two label').css('color', '#000');
+            $('.login-form .three label').css('color', '#000');
+        });
+        $('.login-form .two input').focus(function () {
+            $('.login-form .one label').css('color', '#000');
+            $('.login-form .two label').css('color', '#010ac2');
+            $('.login-form .three label').css('color', '#000');
+        });
+        $('.login-form .three input').focus(function () {
+            $('.login-form .one label').css('color', '#000');
+            $('.login-form .two label').css('color', '#000');
+            $('.login-form .three label').css('color', '#010ac2');
+        });
+
+
+        $('.login-box').click(function (e) {
+            e.preventDefault();
+            $('.reg').css('transform', 'translatex(-700px)');
+            $('.reg').css('transition', '0.5s');
+            $('.reg').css('opacity', '0');
+
+        });
+        $('.regbox').click(function (f) {
+            f.preventDefault();
+
+            $('.reg').css('transform', 'translatex(0px)');
+            $('.reg').css('transition', '0.5s');
+            $('.reg').css('opacity', '1');
+
+        });
+    </script>
+</body>
+
+</html>
